@@ -1,21 +1,21 @@
-Simple CRUD API using.
-	1. node.js
-	2. JWT token
-	3. rethinkDB
+<h1> Simple CRUD API using</h1>
+	<p>1. node.js</p>
+	<p>2. JWT token</p>
+	<p>3. rethinkDB</p>
 	
-npm i express -s
-npm i body-parser -s
-npm i rethinkdb -s
+<br/>
+<h3>Install the follwing node modules using the commands listed below</h3>
+npm i express -s<br/>
+npm i body-parser -s<br/>
+npm i rethinkdb -s<br/>
+npm i socket.io -s<br/>
+npm i jsonwebtoken -s<br/>
+npm i bcryptjs -s<br/>
 
-npm i socket.io -s
 
-npm i jsonwebtoken -s
-npm i bcryptjs -s
-
-
-
-Rethink CMD:
-	r.dbCreate("crud")
-	r.db("crud").tableCreate("users")
-	r.db("crud").tableList()
+<h3>Up the Rethink server and create the DB and table using the following command</h3>
+<h4>Rethink CMD:</h4>
+	r.dbCreate("crud")<br/>
+	r.db("crud").tableCreate("users")<br/>
+	r.db("crud").tableList()<br/>
 	
